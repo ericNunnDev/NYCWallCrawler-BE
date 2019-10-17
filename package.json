@@ -1,0 +1,44 @@
+{
+  "name": "nycwallcrawler-be",
+  "version": "1.0.0",
+  "description": "backend API to hold tweet data for nycwallcrawler twitter clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericNunnDev/NYCWallCrawler-BE.git"
+  },
+  "keywords": [
+    "api",
+    "twitter",
+    "spiderman",
+    "spider",
+    "man",
+    "tweets",
+    "nyc",
+    "wallcrawler"
+  ],
+  "author": "Eric Nunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericNunnDev/NYCWallCrawler-BE/issues"
+  },
+  "homepage": "https://github.com/ericNunnDev/NYCWallCrawler-BE#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "knex": "^0.19.5",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4"
+  }
+}
